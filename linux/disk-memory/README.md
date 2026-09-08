@@ -68,3 +68,4 @@ vmstat 1
 mpstat -P ALL 1
 pidstat 1
 ps -eo pid,ppid,stat,pri,ni,%cpu,%mem,cmd --sort=-%cpu
+
