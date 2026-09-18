@@ -35,3 +35,18 @@ The destination IP was correct, but the destination port was wrong.
 - private IP addresses such as 192.168.x.x are not directly reachable from the public internet.
 - internet reachability normally requires routing/NAT/firewall configuration.
 Validation
+
+## Validation
+
+### Verify listner
+
+```
+netstat -ano | findstr :8080
+```
+
+Expected:
+```
+0.0.0.0:8080 LISTENING
+```
+
+

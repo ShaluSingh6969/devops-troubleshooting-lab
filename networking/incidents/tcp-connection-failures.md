@@ -448,7 +448,7 @@ curl http://127.0.0.1:8080/hello.txt
 
 # Troubleshooting Strategy
 
-When an application cannot connect to another service, troubleshoot from the lowest failing layer upward.
+When an application cannot connect to another service, Troubleshoot in dependency order: name resolution → routing → transport connectivity → TLS → application protocol → application behavior.
 
 ```text
 DNS

@@ -127,4 +127,4 @@ wa       → I/O wait
 |Situation|	r|b|CPU idle|wa|First hypothesis|
 |CPU saturation|High|Low|Low|Low|CPU contention|
 |I/O contention|Often lower|High|Can be high|High|I/O bottleneck|
-Healthy/idle	Low	Low	High	Low	No major pressure
+|Healthy/idle|Low|Low|High|Low|	No major pressure
